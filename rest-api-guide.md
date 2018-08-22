@@ -6,7 +6,7 @@
 URI应当包含vN，其中N指明版本号。
 #### URI Template 
 ```	
-	/{version}/{namespace}/
+/{version}/{namespace}/
 ```
 #### Example 
 ```
