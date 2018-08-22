@@ -1,6 +1,15 @@
 # REST API 设计指南和用例
 
 ## 版本控制
+URI应当包含vN，其中N指明版本号。
+#### URI Template 
+```	
+	/{version}/{namespace}/
+```
+#### Example 
+```
+/v1/trips/
+```
 
 ## 命名空间
 
