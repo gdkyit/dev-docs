@@ -6,15 +6,23 @@
 URI应当包含vN，其中N指明版本号。
 #### URI Template 
 ```	
+/{version}/
+```
+#### Example 
+```
+/v1/
+```
+
+## 命名空间
+如果在URI中你需要考虑命名空间这个概念，那么应当选择紧邻在version之后的第一个字段。命名空间折射出消费者对于API功能的观点，而不一定是公司本身业务逻辑层级的划分。
+#### URI Template 
+```	
 /{version}/{namespace}/
 ```
 #### Example 
 ```
 /v1/trips/
 ```
-
-## 命名空间
-
 ## HTTP行为
 
 ## 返回值
